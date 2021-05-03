@@ -1,0 +1,44 @@
+Expand this code.
+
+upon input of x or X in accept Order, do the receipt generation process
+
+1. Accept tip (from user) suggest 20% or more
+-COMPLETE
+
+2.Calculate (Totaldue + tax + tip)
+-COMPLETE
+
+3. Accept payment type (Credit Card or Cash)
+-COMPLETE
+
+4. Accept tender amount from user
+   If(tender >= (Totaldue + tax + tip))
+-COMPLETE
+
+5. if cash calc change
+-COMPLETE
+
+6. if card process payment
+-COMPLETE [ except always Approved ]
+
+7. Then generate receipt on screen
+void printReceipt(vector<MenuItem> &m, double subtotal);
+// pass the subtoal and/or another needed variables in this regard
+- Can't get user input information into another void function. This task is too difficult
+
+8. next steps generate that same 
+   reciept as an output HTML document
+   webpage Wow Factor! Whaaat!!!
+- I'm out of time to figure this out.
+
+9. Loop program to start over for a 
+  new user, until exit of the whole program.
+- I'm out of time to figure this out.
+
+10 - Next, write this program in:
+     Object Oriented style vs. Struct style
+- Too difficult to figure out why the functions are not displaying properly
+
+Bells and Whistles 
+ADD COLOR To the MENU to ENHANCE OUTPUT
+-COMPLETE
